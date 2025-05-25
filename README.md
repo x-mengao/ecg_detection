@@ -35,5 +35,5 @@ Common files: 100.dat, 100.hea, 100.atr(annotations)
 ## How to Run
 ```bash
 pip install -r requirements.txt
-jupyter notebook notebooks/01_qrs_detection.ipynb
+jupyter-notebook notebooks/01_qrs_detection.ipynb
 ```
