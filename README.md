@@ -5,7 +5,7 @@ Data = MIT-BIH Arrhythmia Database, one of the most widely used public ECG datab
 The intended structure of this project is as follows
 ```
   ecg-qrs-analysis/
-  ├── data/                       # Host raw data in repo (no need to stream data from PhysioNet)
+  ├── data/                       # Host raw data in repo (optional), separate download needed
   ├── notebooks/                  # Jupyter notebooks for processing
   │   └── 01_qrs_detection.ipynb  # Main analysis notebook
   ├── results/                    # Plots, output CSVs, etc.
